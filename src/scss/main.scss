@@ -1,0 +1,46 @@
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+@import './partials/nav';
+@import './partials/home';
+@import './partials/about';
+@import './partials/services';
+@import './partials/facts';
+@import './partials/footer';
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+// @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body {
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+.section-header {
+  .section-title {
+    
+    color: #000000;
+    font-size: 300%;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    span {
+      color: #9C704B;
+      font-weight:bold;
+    }
+  }
+ 
+  .section-subtitle {
+    
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    color: #000000;
+    font-size: 130%;
+    span {
+      color:#000000;
+      font-weight:bold;
+    }
+  }
+}
